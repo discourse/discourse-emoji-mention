@@ -1,0 +1,4 @@
+.mention:before {
+  content: attr(data-before);
+  display: inline;
+}

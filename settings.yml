@@ -1,0 +1,4 @@
+username_emoji: 
+  type: list
+  default: ""
+  description: "Format each option as: @username,🎉"
