@@ -13,7 +13,7 @@ settings.username_emoji.split('|').forEach(pair => {
 });
 
 $.each(emoji, function (key, value){
-    api.decorateCooked($elem => $elem.find("a.mention:contains(" + key + ")").attr("data-before",value).addClass("with-emoji"));
+    api.decorateCooked($elem => $elem.find("a.mention:contains(" + key + ")").attr("data-emoji",value).addClass("with-emoji"));
 });
 
 </script> 

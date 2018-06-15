@@ -1,11 +1,11 @@
 @if $show-after-mention == "true" {
   .mention:after {
-    content: attr(data-before);
+    content: attr(data-emoji);
     display: inline;
   }
 } @else {
   .mention:before {
-    content: attr(data-before);
+    content: attr(data-emoji);
     display: inline;
   }
 }
