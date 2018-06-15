@@ -1,4 +1,11 @@
-.mention:before {
-  content: attr(data-before);
-  display: inline;
+@if $show-after-mention == "true" {
+  .mention:after {
+    content: attr(data-before);
+    display: inline;
+  }
+} @else {
+  .mention:before {
+    content: attr(data-before);
+    display: inline;
+  }
 }

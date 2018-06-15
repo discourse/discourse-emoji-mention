@@ -2,3 +2,7 @@ username_emoji:
   type: list
   default: ""
   description: "Format each option as: @username,🎉"
+
+show_after_mention: 
+  default: false
+  description: 'Show emoji after mention instead of before'

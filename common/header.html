@@ -12,8 +12,8 @@ settings.username_emoji.split('|').forEach(pair => {
     emoji[split[0].toLowerCase()] = split[1];
 });
 
-$.each(emoji , function (key, value){
-    api.decorateCooked($elem => $elem.find("a.mention:contains(" + key + ")").attr("data-before",value));
+$.each(emoji, function (key, value){
+    api.decorateCooked($elem => $elem.find("a.mention:contains(" + key + ")").attr("data-before",value).addClass("with-emoji"));
 });
 
 </script> 
