@@ -1,4 +1,5 @@
 {
   "name": "discourse-emoji-mention",
-  "about_url": "http://discourse.org"
+  "about_url": "http://discourse.org",
+  "component": true
 }
