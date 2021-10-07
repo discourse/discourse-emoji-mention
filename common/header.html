@@ -13,6 +13,7 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
 
 let emoji = {};
 
+
 settings.username_emoji.split("|").forEach(pair => {
   let split = pair.split(",");
   emoji[split[0].toLowerCase()] = split[1];
