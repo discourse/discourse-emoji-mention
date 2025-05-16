@@ -1,5 +1,5 @@
-import { apiInitializer } from "discourse/lib/api";
 import $ from "jquery";
+import { apiInitializer } from "discourse/lib/api";
 
 export default apiInitializer((api) => {
   $.expr[":"].contains = $.expr.createPseudo(function (arg) {
